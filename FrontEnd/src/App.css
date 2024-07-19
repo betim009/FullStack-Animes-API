@@ -1,0 +1,60 @@
+.App {
+  background-color: rgb(222, 217, 217);
+  min-height: 100vh;
+}
+
+.border-nav {
+  border-bottom: 2px solid white;
+  background-color: rgb(34, 80, 120);
+}
+
+
+.nav-sing {
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.dropDown a {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: rgb(34, 80, 120) !important;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-menu a:hover {
+  color: black !important;
+}
+
+
+.btn-signIn {
+  border: 1.5px solid white !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white !important;
+}
+
+.btn-signIn:hover {
+  background-color: white;
+  color: black !important;
+}
+
+.btn-toggleSynopsis {
+  border: none;
+  background-color: white;
+  color: blue;
+}
+
+/* Estilos para dispositivos pequenos e acima */
+@media (max-width: 576px) {
+  .nav-sing {
+    margin-bottom: 10px !important;
+    /* Borda inferior de 2px */
+  }
+}
